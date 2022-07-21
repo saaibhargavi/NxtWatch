@@ -2,6 +2,10 @@ import {ErrorContainer, Para, Head, Button, ErrorImg} from './styledComponent'
 
 import AppTheme from '../../context/Theme'
 
+const {refresh} = props
+
+const {light, dark} = props
+
 const ErrorImage = props => (
   <AppTheme.Consumer>
     {value => {
